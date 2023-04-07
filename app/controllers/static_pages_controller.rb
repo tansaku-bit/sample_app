@@ -1,3 +1,5 @@
+#require "test_helper"
+
 class StaticPagesController < ApplicationController
   def home
   end
@@ -5,4 +7,6 @@ class StaticPagesController < ApplicationController
   def help
   end
 
+  def about
+  end
 end
